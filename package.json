@@ -1,0 +1,26 @@
+{
+  "name": "connectis",
+  "version": "1.0.0",
+  "description": "casosDePrueba Connectis",
+  "main": "index.js",
+  "scripts": {
+    "test": "start-server-and-test start http://localhost:3030 cy:run",
+    "cypress:open": "cypress open",
+    "start": "my-server -p 3030",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcanarini/Connectis.git"
+  },
+  "keywords": [
+    "Connectis",
+    "TestCases",
+    "CasosDePrueba"
+  ],
+  "author": "Olgiati Agostina",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.1.0"
+  }
+}
