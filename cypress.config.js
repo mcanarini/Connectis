@@ -8,6 +8,7 @@ module.exports = defineConfig({
     e2e: {
       baseUrl: 'https://tienda.movistar.com.ar',
     },
-  
+    projectId: "tjfm24",
   },
 });
+
